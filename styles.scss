@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  font-size: 100px;
+  font-weight: 200;
+  font-family: 'Dosis', sans-serif;
+  background-color: grey;
+  padding-top: 25px;
+  color: white;
+}
+footer {
+  display: block;
+  width: 100%;
+  background-color: grey;
+}
+.form {
+  width: 60%;
+  margin: 0 auto;
+
+  input {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    border-color: transparent;
+    padding-top: 10px;
+  }
+
+  button{
+    float: right;
+    width: 100px;
+    background-color: gray;
+    color: white;
+    margin-top: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+  }
+}
+article{
+  width: 100%;
+  margin: 0 auto;
+  button{
+    width: 100px;
+    background-color: gray;
+    color: white;
+    margin-top: 15px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+  }
+
+}
+nav {
+  width: 60%;
+  display: block;
+
+  ul {
+    margin: 45px;
+    padding: 0px 25px 0px 0px;
+    position: relative;
+    left: 420px;
+  }
+  li {
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    &:hover {
+      background-color: white;
+      a{
+        color: gray;
+      }
+    }
+  }
+}
+section {
+  display: none;
+}
+.active-section {
+  display: inline-block;
+  width: 80%;
+  margin-left: 277px;
+}
